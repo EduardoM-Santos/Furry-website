@@ -16,6 +16,29 @@ h1{
     font-size: 100px;
     box-shadow: 10px, 10px, 10px;
 }
+h2{
+    color: white;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: white;
+    background-color: rgba(179, 11, 230, 0.664);
+    border-radius: 10px;
+}
+h2:hover{
+    color: white;
+    padding-left: 150px;
+    box-shadow: 10px, 10px, 10px;
+    transition: all 0.5s ease;
+    background-color: rgba(23, 23, 250, 0.507);
+    border-radius: 5px;
+    font size: 500px;
+}
 p {
     text-align: center;
     background-color: rgba(98, 0, 255, 0.05);
@@ -29,18 +52,20 @@ header{
 }
 header p:hover{
     font-family: "Bebas Neue";
-    background-color: rgba(229, 2, 250, 0.171);
+    background-color: rgba(2, 6, 250, 0.342);
     padding-bottom: 50px;
+    box-shadow: 15px, 15px, 15px;
     color: rgb(255, 255, 255);
-    transition: all 0.8s ease;
+    transition: all 0.5s ease;
     padding-left: 30px;
     padding-right: 30px;
+    border-radius: 25px;
 }
 div{
-    background: linear-gradient(to top, rgba(255, 2, 2, 0.288), rgba(48, 48, 48, 0.205));
+    background: linear-gradient(to top, rgba(255, 2, 2, 0.61), rgba(0, 55, 92, 0.651));
 }
  img{
-    width: 70%;
+    width: 50%;
     display: block;
    text-align: center;
    height: auto; 
@@ -56,6 +81,7 @@ article div p:hover{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 50px;
+    border-radius: 10px;
 }
 footer img{
     width: 70%;
